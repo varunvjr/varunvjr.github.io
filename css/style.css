@@ -144,3 +144,36 @@ header .navbar ul li a:hover{
     z-index: 1000;
     display: none; 
 }
+
+section{
+    min-height: 100vh ;
+    padding:1rem;
+
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 0 8rem;
+}
+
+.home h3{
+    font-size: 2rem;
+    color:#fff;
+
+}
+
+.home h1{
+    font-size: 3rem;
+    color:#fff;
+    
+}
+
+.home p{
+    font-size: 11px;
+    line-height: 3rem;
+    color: #eee;
+    
+}
