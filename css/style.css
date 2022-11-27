@@ -177,3 +177,80 @@ section{
     color: #eee;
     
 }
+
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+ /* Grey background */
+}
+.skillHeading{
+    color: white;
+    font-size: 2rem;
+}
+.skills {
+  border-radius: 30px;
+  text-align: right; /* Right-align text */
+  padding-top: 3.5px; /* Add top padding */
+  padding-bottom: 3.5px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.python {width: 85%; background-color: #04AA6D;} /* Green */
+.java {width: 90%; background-color: #2196F3;} /* Blue */
+.javascript {width: 85%; background-color: #f44336;} /* Red */
+.mysql {width: 80%; background-color: #808080;} 
+.react {width: 95%; background-color: var(--yellow);} 
+.c {width: 70%; background-color: orange;} 
+.mongo {width: 69%; background-color: purple;} 
+
+.about .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+.about .row .info{
+    flex:1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 1rem;
+}
+
+.about .row .info h3{
+    font-size: 2rem;
+    color: var(--yellow);
+    padding:1rem 0;
+    font-weight: normal;
+}
+.about .row .info h3 span{
+    color:#eee;
+    padding:0 0.5;
+}
+
+.about .row .counter{
+    flex: 1 1 48rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about .row .counter .box{
+    width: 20rem;
+    background: #222;
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+
+}
+
+.about .row .counter .box span{
+    font-size: 2rem;
+    color: var(--yellow);
+}
+
+.about .row .counter .box h3{
+    font-size:2rem;
+    color: #fff;
+}
