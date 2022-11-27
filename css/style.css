@@ -471,3 +471,321 @@ section{
     }
     
     
+/* media query */
+@media (min-width:1440px) {
+    header{
+        left:-120%;
+    }
+    .card-body .btn{
+        margin-left:25%;
+    }
+    #menu{
+        display: block;
+    }
+    .navbar li{
+        width:45em;
+    }
+    header.toggle{
+        left:0%;
+        width:38%
+    } 
+    body{
+        padding: 60;
+    }
+    .image-flip {
+        margin-left: 20em;
+        margin-bottom: 100px;
+        width: 100%;
+        height: 100%;
+    }
+    .mainflip{
+        margin-left:5%;
+    }
+    
+    .card-img-top {
+        width: 100%;
+        height: 30em;
+    }
+    .card{
+        width:35rem;
+    }
+    .card-title{
+        font-size: 2.5rem;
+    }
+    .home {
+        min-height: 100vh;
+        padding: 1rem;
+        margin-left: 20%;
+    }
+    .home h1{
+        font-size:5em;
+    }
+    .home h3{
+        font-size:3em;
+    }
+    .home p{
+        line-height: 2em;
+        font-size:2.5rem;
+    }
+    .about {
+        min-height: 100vh;
+        padding: 1rem;
+        margin-left: 20%;
+    }
+    .education {
+        min-height: 100vh;
+        padding: 1rem;
+        margin-left: -23%;
+    }
+    .project{
+        min-height: 100vh;
+        padding: 1rem;
+        margin-left: 20%;
+    }
+    .contact{
+        min-height: 100vh;
+        padding: 1rem;
+        margin-left: 20%;
+    }
+    .section{
+             min-height: 100vh;
+        padding: 1rem;
+        margin-left: 20%;
+    }
+}
+
+
+@media (min-width:968px) and  (max-width:1440px) {
+    header{
+        left:-120%;
+    }
+    .card-body .btn{
+        margin-left:25%;
+    }
+    #menu{
+        display: block;
+    }
+    header.toggle{
+        left:0%;
+    } 
+    body{
+        padding: 60;
+    }
+    .image-flip {
+        margin-left: 20em;
+        margin-bottom: 100px;
+        width: 100%;
+        height: 100%;
+    }
+    .mainflip{
+        margin-left:-7%;
+    }
+    .card-img-top {
+        width: 100%;
+        height: 30em;
+    }
+    .card{
+        width:35rem;
+    }
+    .card-title{
+        font-size: 2.5rem;
+    }
+    .education {
+        min-height: 100vh;
+        padding: 1rem;
+        margin-left: -23%;
+    }
+}
+@media(min-width:425px) and (max-width:968px){
+    header{
+        left:-120%;
+    }
+    header .user .name {
+        font-size: 2rem;
+        color: #fff;
+    }
+    ul{
+        margin-left: 0em;
+    }
+    .card-body .btn{
+        margin-left:25%;
+    }
+    #menu{
+        display: block;
+    }
+    .navbar li{
+        width:15em;
+    }
+    header.toggle{
+        left:0%;
+        width:32%
+    } 
+    body{
+        padding: 60;
+    }
+    .image-flip {
+        margin-left: 5%;
+        margin-bottom: 100px;
+        width: 100%;
+        height: 100%;
+    }
+    .mainflip{
+        margin-left:2%;
+    }
+    
+    .card-img-top {
+        width: 100%;
+        height: 25em;
+    }
+    .card{
+        width:35rem;
+    }
+    .card-title{
+        font-size: 1.5rem;
+    }
+    .home {
+        min-height: 100vh;
+        padding: 0rem;
+        margin-left: -21%;
+    }
+    
+    .home h1{
+        font-size:2em;
+    }
+    .home h3{
+        font-size:3em;
+    }
+    .home p{
+        line-height: 2em;
+        font-size:1.5rem;
+    }
+    .about {
+        min-height: 100vh;
+        padding: 1rem;
+        margin-left: -21%;
+    }
+    .education {
+        min-height: 100vh;
+        padding: 0rem;
+        margin-left: -30%;
+    }
+    .project{
+        min-height: 100vh;
+        padding: 1rem;
+        margin-left: -20%;
+    }
+    .contact{
+        min-height: 100vh;
+        padding: 1rem;
+        margin-left: -20%;
+    }
+    .section{
+     min-height: 100vh;
+        padding: 1rem;
+        margin-left: 20%;
+    }
+}
+@media (max-width:425px) {
+    header{
+        left:-120%;
+    }
+    ul{
+        margin-left: 10em;
+    }
+   
+    header .user .name {
+        font-size: 2rem;
+        color: #fff;
+    }
+    .card-body .btn{
+        margin-left:25%;
+    }
+    #menu{
+        display: block;
+    }
+    .navbar li{
+        width:15em;
+    }
+    header.toggle{
+        left: 0%;
+        width: 100%;
+        display: block;
+        height: 53%;
+    } 
+    body{
+        padding: 60;
+    }
+    .image-flip {
+        margin-left: 5%;
+        margin-bottom: 100px;
+        width: 100%;
+        height: 100%;
+    }
+    .mainflip{
+        margin-left:2%;
+    }
+    
+    .card-img-top {
+        width: 100%;
+        height: 25em;
+    }
+    .card{
+        width:35rem;
+    }
+    .card-title{
+        font-size: 1.5rem;
+    }
+    .home {
+        min-height: 150vh;
+        padding: 0rem;
+        margin-top: 110em;
+        margin-left: -33em;
+    }
+    
+    .home h1{
+        font-size:2em;
+    }
+    .home h3{
+        font-size:3em;
+    }
+    .home p{
+        line-height: 2em;
+        font-size:1.5rem;
+    }
+    .about {
+        width: 164em;
+    margin-top: 354em;
+    min-height: 150vh;
+    padding: 63rem;
+    margin-bottom: 0em;
+    margin-left: -96em;
+    }
+    .education {
+        width: 164em;
+        margin-top: 354em;
+        min-height: 150vh;
+        padding: 63rem;
+        margin-bottom: 0em;
+        margin-left: -96em;
+    }
+    .education .heading span{
+        font-size: 32px;
+    }
+    .project{
+        width: 164em;
+        margin-top: 354em;
+        min-height: 150vh;
+        padding: 63rem;
+        margin-bottom: 0em;
+        margin-left: -96em;
+    }
+    .contact{
+        width: 164em;
+        margin-top: 354em;
+        min-height: 150vh;
+        padding: 63rem;
+        margin-bottom: 0em;
+        margin-left: -96em;
+    }
+   
+}
