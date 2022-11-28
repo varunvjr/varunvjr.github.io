@@ -6,7 +6,7 @@ Source:
 
 Inspired by the various website portfolio design available on youtube and github
 
-Added send email from contact form  by following https://www.youtube.com/watch?v=D-NYmDWiFjU  link.
+Added send email for contact form  by following https://www.youtube.com/watch?v=D-NYmDWiFjU  link.
 
 External Frameworks Used:
 
